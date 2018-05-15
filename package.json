@@ -1,5 +1,20 @@
+
 {
+	"name": "ApiCesi",
+	"private": true,
+	"version":"0.0.1",
+	"description":"simple node api",
+	"author": "Brieuc vab",
 	"dependencies": {
-		"express": ""
+		"body-parser": "^1.12.4",
+		"express": "",
+		"crypto":"0.0.3",
+		"redis":""
+	},
+	"scripts" : {
+		"start" : "node server_express.js"
+	},
+	"engines" : {
+		"node":">=0.6"
 	}
 }
